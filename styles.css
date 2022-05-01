@@ -48,7 +48,6 @@ h1{
 
 p{  font-family: 'Lexend Deca', sans-serif;
     color: var(--Transparent-white);
-    letter-spacing: 0.046rem;
     text-align: left;
     
 }
@@ -64,7 +63,7 @@ article{
     padding: 3rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    width: 20.5rem;
+    width: 20.9rem;
   
 }
 article:nth-child(1){
@@ -97,9 +96,10 @@ img,h1,button{
         display: flex;
     }
     button{
-        margin-top:5.6rem ;
+        margin-top:4.4rem ;
     }
-    article{
-        width: 19.2rem;
-    }
+  p{
+      font-size: 1.07rem;
+  }
+    
 }
