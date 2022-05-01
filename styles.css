@@ -6,6 +6,7 @@
 
 --Transparent-white: hsla(0, 0%, 100%, 0.75);
 --Very-light-gray: hsl(0, 0%, 95%);
+
 }
 *{
     margin: 0;
@@ -32,6 +33,12 @@ button{
     width: 9.2rem;
     height: 3rem;
 }
+article p+button:hover{
+    background-color: var(--Transpharent-white);
+    color:white;
+    border: 3px solid white;
+    cursor: pointer;
+}
 h1{
     text-transform: uppercase;
     color: var(--Very-light-gray);
@@ -54,7 +61,7 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    padding: 2rem;
+    padding: 3rem;
     width: 20.5rem;
   
 }
